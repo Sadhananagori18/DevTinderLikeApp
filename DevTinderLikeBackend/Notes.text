@@ -1,0 +1,3 @@
+* Order of routes matters
+* If use app.use then it will match all the HTTP method API calls (will call for all get,post etc method)
+* Always use app.get, app.post etc
